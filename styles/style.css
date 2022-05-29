@@ -1,0 +1,11 @@
+body {
+    display: flex;
+}
+
+.logo-container {
+    background-color:rgba(45, 46, 43, .8);
+}
+
+.logo {
+    width: 16rem;
+}
