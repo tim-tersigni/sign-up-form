@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 20vh;
-  margin-top: 10rem;
+  margin-top: 20vh;
 }
 
 .logo {
@@ -29,7 +29,7 @@ body {
 }
 
 main {
-  margin: 8rem 2rem 8rem 2rem;
+  margin: 15vh 2rem 8rem 2rem;
 }
 
 .blurb-container {
@@ -43,4 +43,33 @@ main {
 
 .tempting-line {
   margin-bottom: 4rem
+}
+
+form {
+  display: flex;
+  justify-content: left;
+  gap: 3rem;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+label {
+  font-size: 0.6rem;
+  color: green;
+}
+
+input {
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 2px;
+  height: 1.15rem;
+}
+
+input:focus {
+  outline: 2px ridge rgb(96, 96, 99);
 }
