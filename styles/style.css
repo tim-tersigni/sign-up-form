@@ -3,9 +3,24 @@ body {
 }
 
 .logo-container {
-    background-color:rgba(45, 46, 43, .8);
+    display: flex;
+    background-color:rgba(24, 25, 29, 0.7);
+    width: 45vw;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-top: 40%;
 }
 
 .logo {
-    width: 16rem;
+    max-height: 100%;
+    max-width: 60%;
+}
+
+.left-hero {
+    display: flex;
+    background-image: url("../images/food-spread.png");
+    background-position: center;
+    background-size: cover;;
+    height: 100vh;
 }
