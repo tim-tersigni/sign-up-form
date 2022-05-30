@@ -77,12 +77,15 @@ label {
   color: #76a94c;
 }
 
-input:not(:last-child) {
-  margin-bottom: 1rem;
+input {
   margin-top: 0.25rem;
   border: 1px solid rgb(236, 236, 236);
   border-radius: 2px;
   height: 1.15rem;
+}
+
+input:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 input:focus {
