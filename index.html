@@ -26,28 +26,49 @@
           <p class="tempting-line">You <em>know</em> you want to.</p>
         </section>
         <section class="form-card">
-            <p class="call-to-action">Let's do this!</p>
-            <form>
-              <div class="form-column">
+          <p class="call-to-action">Let's do this!</p>
+          <form>
+            <div class="form-row">
+              <div class="form-entry">
                 <label for="firstName">FIRST NAME</label>
                 <input type="text" id="firstName" name="firstName" />
-                <label for="email">EMAIL</label>
-                <input type="text" id="email" name="email" />
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password" />
               </div>
-              <div class="form-column">
+              <div class="form-entry">
                 <label for="lastName">LAST NAME</label>
                 <input type="text" id="lastName" name="lastName" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-entry">
+                <label for="email">EMAIL</label>
+                <input type="text" id="email" name="email" />
+              </div>
+              <div class="form-entry">
                 <label for="phoneNumber">PHONE NUMBER</label>
                 <input type="phoneNumber" id="phoneNumber" name="phoneNumber" />
-                <label for="confirmPassword">CONFIRM PASSWORD</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" />
               </div>
-            </form>
+            </div>
+            <div class="form-row">
+              <div class="form-entry">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" />
+                <p class="alert subsubtext"><br></p>
+              </div>
+              <div class="form-entry">
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                />
+              </div>
+            </div>
+          </form>
         </section>
         <footer>
-          <button class="create-account-button" type="button">Create Account</button>
+          <button class="create-account-button" type="button">
+            Create Account
+          </button>
           <p class="subtext">Already have an account? <a href=".">Log in</a></p>
         </footer>
       </div>

@@ -10,14 +10,23 @@ function main() {
 }
 
 function checkPasswordMatch(passwordInput, confirmPasswordInput) {
+  const message = document.querySelector(".alert");
   if (confirmPasswordInput.value.length == 0) return;
 
   if (passwordInput.value != confirmPasswordInput.value) {
     passwordInput.style.borderColor = "red";
     confirmPasswordInput.style.borderColor = "red";
+
+    message.style.color = "red";
+    const text = "* Passwords do not match";
+    message.innerText = text;
   } else {
     passwordInput.style.borderColor = "rgb(236, 236, 236)";
     confirmPasswordInput.style.borderColor = "rgb(236, 236, 236)";
+
+    message.style.color = "white";
+    const text = "<br>";
+    message.innerText = text;
   }
 }
 
